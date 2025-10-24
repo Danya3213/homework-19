@@ -1,0 +1,17 @@
+@layer components {
+
+    .apple-button {
+
+        @apply bg-apple text-white;
+    }
+
+    .transparent-button {
+
+        @apply bg-transparent text-apple border border-apple;
+    }
+
+    .black-button {
+
+        @apply bg-black text-light;
+    }
+}
