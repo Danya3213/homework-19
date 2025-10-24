@@ -1,0 +1,34 @@
+@import "tailwindcss";
+@import "./reset.css";
+@import './fonts.css';
+@import './components.css';
+@import './normalize.css';
+
+:root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+    --font-family: "Unbounded", "Inter", sans-serif;
+}
+
+@theme {
+
+  --font-unbounded: "Unbounded", sans-serif;
+  --font-inter: "Inter", sans-serif;
+
+    --color-apple: #B64B4B;
+    --color-light: #FFFFFF;
+    --color-white: #F9F8F6;
+    --color-grey-light: #D5D5D5;
+    --color-grey: #BABABA;
+    --color-black: #323232;
+    --color-grey-transparent: #32323287;
+    --color-dark: #000000;
+
+    --text-xxl: 4.6875rem;  /* 75px */
+    --text-xl: 3rem;        /* 48px */
+    --text-l: 2rem;         /* 32px */
+    --text-m: 1.5rem;       /* 24px */
+    --text-s: 1.25rem;      /* 20px */
+    --text-xs: 1rem;        /* 16px */
+    --text-xxs: 0.875rem;   /* 14px */
+}

@@ -1,0 +1,11 @@
+@layer base {
+
+    p {
+        @apply font-inter text-black text-xs font-normal;
+    }
+
+    button {
+
+        @apply font-inter font-semibold text-xs py-4 px-8
+    }
+}

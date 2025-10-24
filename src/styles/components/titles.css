@@ -1,0 +1,37 @@
+@layer components {
+
+    .xxl-title {
+
+        @apply text-xxl text-white font-bold;
+    }
+
+    .xl-title {
+
+        @apply text-xl text-black;
+    }
+
+    .l-title {
+
+        @apply text-l text-black font-bold;
+    }
+
+    .m-title {
+
+        @apply text-m text-black font-semibold;
+    }
+
+    .s-title {
+
+        @apply text-s/6 text-white;
+    }
+
+    .xxs-title {
+
+        @apply text-xxs text-grey-light;
+    }
+
+    .paragraph {
+
+        @apply text-xs/1.5 text-black font-inter font-normal;
+    }
+}
